@@ -8,5 +8,10 @@ public class App{
       "What is a mob that drops Ender Pearls?",
       "What mob can be tamed using bones?"
     };
+    for (int i = 0; i < questions.length; i++){
+      System.out.println(questions[i]);
+      String UserAnswer = scnr.nextLine();
+      String[] Answer = {UserAnswer};
+    }
   }
 }
