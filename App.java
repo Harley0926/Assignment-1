@@ -12,6 +12,8 @@ public class App{
       System.out.println(questions[i]);
       String UserAnswer = scnr.nextLine();
       String[] Answer = {UserAnswer};
+      Checker checker = new Checker();
+      checker.checkAnswer(Answer, checker.answers);
     }
   }
 }
